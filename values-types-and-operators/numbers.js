@@ -14,3 +14,7 @@ exports.annualLeave = annualLeave
 exports.BobRemainingDays = BobRemainingDays
 exports.AliceRemainingDays = AliceRemainingDays
 exports.TomRemainingDays = TomRemainingDays
+
+var annualLeave = x;
+var average = (3*x-BobRemainingDays-AliceRemainingDays-TomRemainingDays)/3
+
